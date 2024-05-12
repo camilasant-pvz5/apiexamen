@@ -1,21 +1,25 @@
 @keyframes liquido-3d {
   0% {
     transform: translateY(-5px) rotateX(20deg) rotateY(10deg);
-    text-shadow: 0px 0px 5px rgba(0, 255, 0, 0.7);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
   }
   50% {
     transform: translateY(5px) rotateX(-20deg) rotateY(-10deg);
-    text-shadow: 0px 0px 10px rgba(0, 255, 0, 0.9);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
   }
   100% {
     transform: translateY(-5px) rotateX(20deg) rotateY(10deg);
-    text-shadow: 0px 0px 5px rgba(0, 255, 0, 0.7);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
   }
 }
 
 .titulo-liquido-3d {
-  color: rgb(0, 0, 0);
+  color: rgb(56, 129, 27);
   font-size: 3rem;
   text-align: center;
   animation: liquido-3d 2s infinite;
+  border: 2px solid rgba(0, 255, 0, 0.9);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
 }
