@@ -10,18 +10,18 @@ const [search, setSearch] = useState("");
 
 return (
   <div className="container">
-    <h1 className="text-center my-4">Rickcode for Rickgeousness</h1>
-    <div className="mb-4">
-      <input
-        type="text"
-        className="form-control"
-        placeholder="Search character..."
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-      />
+      <h1 className="titulo-liquido-3d">Rickcode for Rickgeousness</h1>
+      <div className="mb-4">
+        <input
+          type="text"
+          className="form-control"
+          placeholder="Search character..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+        />
+      </div>
+      <Lista search={search} />
     </div>
-    <Lista search={search} />
-  </div>
 );
 }
 
