@@ -42,6 +42,9 @@ const Lista = ({ search }) => {
                   Status: {personaje.status}
                   <br />
                   Species: {personaje.species}
+                  <br />
+                  Location: {personaje.location.name} <br />
+                  Episodes: {personaje.episode.length}
                 </Card.Text>
               </Card.Body>
             </Card>
