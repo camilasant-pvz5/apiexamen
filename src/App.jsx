@@ -15,7 +15,7 @@ return (
         <input
           type="text"
           className="form-control"
-          placeholder="Search character..."
+          placeholder="What's your squanch?..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />

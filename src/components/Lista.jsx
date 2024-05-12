@@ -35,7 +35,12 @@ const Lista = ({ search }) => {
         {persontoshow.map((personaje, id) => (
           <Col key={id}>
             <Card>
-            <Card.Img variant="top" src={personaje.image} />
+            <Card.Img
+                variant="top"
+                src={personaje.image}
+                className="img-fluid"
+                style={{ height: "300px", objectFit: "cover" }}
+              />
               <Card.Body>
                 <Card.Title>{`${personaje.id} - ${personaje.name}`}</Card.Title>
                 <Card.Text>
